@@ -6,5 +6,4 @@ before_install:
   - docker build -t ppsingh/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run -t ppsingh/docker-react num run test -- --coverage
-  
+  - docker run -t ppsingh/docker-react npm run test -- --coverage
