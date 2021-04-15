@@ -7,3 +7,4 @@ before_install:
 
 script:
   - docker run -t ppsingh/docker-react num run test -- --coverage
+  
